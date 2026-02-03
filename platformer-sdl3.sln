@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "platformer-sdl3", "platformer-sdl3\platformer-sdl3.vcxproj", "{2FA4D41E-BC51-4B8A-A6DE-F8ED11CFD80E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "res", "res", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gfx", "gfx", "{39823610-A035-4DD1-9D1A-BC8FB37DFB0B}"
+	ProjectSection(SolutionItems) = preProject
+		platformer-sdl3\res\gfx\ground_grass_1.png = platformer-sdl3\res\gfx\ground_grass_1.png
+		platformer-sdl3\res\gfx\hulking_knight.png = platformer-sdl3\res\gfx\hulking_knight.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FA4D41E-BC51-4B8A-A6DE-F8ED11CFD80E}.Debug|x64.ActiveCfg = Debug|x64
+		{2FA4D41E-BC51-4B8A-A6DE-F8ED11CFD80E}.Debug|x64.Build.0 = Debug|x64
+		{2FA4D41E-BC51-4B8A-A6DE-F8ED11CFD80E}.Debug|x86.ActiveCfg = Debug|Win32
+		{2FA4D41E-BC51-4B8A-A6DE-F8ED11CFD80E}.Debug|x86.Build.0 = Debug|Win32
+		{2FA4D41E-BC51-4B8A-A6DE-F8ED11CFD80E}.Release|x64.ActiveCfg = Release|x64
+		{2FA4D41E-BC51-4B8A-A6DE-F8ED11CFD80E}.Release|x64.Build.0 = Release|x64
+		{2FA4D41E-BC51-4B8A-A6DE-F8ED11CFD80E}.Release|x86.ActiveCfg = Release|Win32
+		{2FA4D41E-BC51-4B8A-A6DE-F8ED11CFD80E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39823610-A035-4DD1-9D1A-BC8FB37DFB0B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C6B81E7-066A-4583-88DD-AE823FDC2985}
+	EndGlobalSection
+EndGlobal
