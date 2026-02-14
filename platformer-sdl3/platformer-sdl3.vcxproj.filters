@@ -16,54 +16,87 @@
     <Filter Include="Исходные файлы\res">
       <UniqueIdentifier>{a03c9b31-67ee-4cde-bde5-9d6a69716e63}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\Systems">
+    <Filter Include="Исходные файлы\config">
+      <UniqueIdentifier>{d2783abb-1cac-4730-a5c1-3b84cffd3968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\component">
+      <UniqueIdentifier>{243ff6e8-a777-4a8e-b4dc-2901bb895dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\core">
+      <UniqueIdentifier>{e916f8a8-5501-4003-9559-2276c2dbaf87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Systems">
       <UniqueIdentifier>{697c826c-0dc7-4b2e-9d56-7e72481a37f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\utils">
+      <UniqueIdentifier>{6dfc746f-289d-4d7b-8da6-7cf9ba0b2442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\general">
+      <UniqueIdentifier>{1fd803b0-7885-4068-a941-3bc5a45da6ee}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="ConfigManager.cpp">
+      <Filter>Исходные файлы\config</Filter>
     </ClCompile>
     <ClCompile Include="Engine.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Исходные файлы\core</Filter>
     </ClCompile>
     <ClCompile Include="Scene_Level.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Исходные файлы\core</Filter>
     </ClCompile>
     <ClCompile Include="Vec2.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Исходные файлы\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы\core</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelLoader.cpp">
+      <Filter>Исходные файлы\config</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Registry.hpp">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="ComponentStorage.hpp">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Components.hpp">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Engine.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="RenderSystem.hpp">
-      <Filter>Файлы заголовков\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="Scene_Level.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Action.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\Systems</Filter>
     </ClInclude>
     <ClInclude Include="MovementSystem.hpp">
-      <Filter>Файлы заголовков\Systems</Filter>
-    </ClInclude>
-    <ClInclude Include="Vec2.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\Systems</Filter>
     </ClInclude>
     <ClInclude Include="PhysicsSystem.hpp">
-      <Filter>Файлы заголовков\Systems</Filter>
+      <Filter>Исходные файлы\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="AbilitySystem.hpp">
+      <Filter>Исходные файлы\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.hpp">
+      <Filter>Исходные файлы\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentStorage.hpp">
+      <Filter>Исходные файлы\component</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigManager.h">
+      <Filter>Исходные файлы\config</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Исходные файлы\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Level.h">
+      <Filter>Исходные файлы\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.hpp">
+      <Filter>Исходные файлы\general</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSystem.hpp">
+      <Filter>Исходные файлы\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelLoader.h">
+      <Filter>Исходные файлы\config</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

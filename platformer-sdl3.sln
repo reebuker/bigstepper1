@@ -9,8 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "res", "res", "{02EA681E-C7D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gfx", "gfx", "{39823610-A035-4DD1-9D1A-BC8FB37DFB0B}"
 	ProjectSection(SolutionItems) = preProject
-		platformer-sdl3\res\gfx\ground_grass_1.png = platformer-sdl3\res\gfx\ground_grass_1.png
-		platformer-sdl3\res\gfx\hulking_knight.png = platformer-sdl3\res\gfx\hulking_knight.png
+		platformer-sdl3\res\gfx\nature-paltformer-tileset-16x16.png = platformer-sdl3\res\gfx\nature-paltformer-tileset-16x16.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{92D0FC6C-8CA6-49AC-B2ED-2BCB8F34293D}"
+	ProjectSection(SolutionItems) = preProject
+		platformer-sdl3\res\config\Collision.csv = platformer-sdl3\res\config\Collision.csv
+		platformer-sdl3\res\config\config.json = platformer-sdl3\res\config\config.json
 	EndProjectSection
 EndProject
 Global
@@ -35,6 +40,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{39823610-A035-4DD1-9D1A-BC8FB37DFB0B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{92D0FC6C-8CA6-49AC-B2ED-2BCB8F34293D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0C6B81E7-066A-4583-88DD-AE823FDC2985}

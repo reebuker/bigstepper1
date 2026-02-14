@@ -55,6 +55,12 @@ public:
 			std::cout << "Index error at ComponentStorage::get() with entity " << entity << std::endl;
 			return nullptr;
 		}
+
+		if (!has(entity))
+		{
+			std::cout << "Entity does not have component: " << entity << std::endl;
+			return nullptr;
+		}
 		return &components[entity_to_index[entity]];
 	}
 

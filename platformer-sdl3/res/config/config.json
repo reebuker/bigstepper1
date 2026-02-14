@@ -1,0 +1,35 @@
+{
+  "Game": {
+    "tilesize": 16
+  },
+  "Window": {
+    "W": 960,
+    "H": 720
+  },
+  "Player": {
+    "W": 16,
+    "H": 16,
+    "ACCEL": 24,
+    "BRAKE": 30,
+    "JUMP": 12,
+    "DASH": 32,
+    "DASH_TIME": 0.2,
+    "MAX_VEL_X": 8
+  },
+  "Physics": {
+    "GRAVITY": 50,
+    "MAX_VEL_Y": 40,
+    "COYOTE_TIME": 0.1,
+    "CAN_DASH_TIME": 0.5
+  },
+  "Level_1": {
+    "width": 12,
+    "height": 18
+  },
+  "Asset": {
+    "size": 16,
+    "width": 112,
+    "height": 176,
+    "path": "res/gfx/nature-paltformer-tileset-16x16.png"
+  }
+}

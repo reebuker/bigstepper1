@@ -2,9 +2,10 @@
 
 enum Action
 {
-	MOVEUP,
-	MOVEDOWN,
+	JUMP,
+	DASH,
 	MOVELEFT,
-	MOVERIGHT
+	MOVERIGHT,
+	RESPAWN
 };
 

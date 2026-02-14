@@ -165,16 +165,22 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConfigManager.cpp" />
     <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="LevelLoader.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Scene_Level.cpp" />
     <ClCompile Include="Vec2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbilitySystem.hpp" />
     <ClInclude Include="Action.h" />
+    <ClInclude Include="CameraSystem.hpp" />
     <ClInclude Include="Components.hpp" />
     <ClInclude Include="ComponentStorage.hpp" />
+    <ClInclude Include="ConfigManager.h" />
     <ClInclude Include="Engine.h" />
+    <ClInclude Include="LevelLoader.h" />
     <ClInclude Include="MovementSystem.hpp" />
     <ClInclude Include="PhysicsSystem.hpp" />
     <ClInclude Include="Registry.hpp" />
